@@ -1,0 +1,13 @@
+.header__wrapper_desktop {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+/* - 767px*/
+
+@media screen and (max-width: 767px) {
+    .header__wrapper_desktop {
+        display: none;
+    }
+}

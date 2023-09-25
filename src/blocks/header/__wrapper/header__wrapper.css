@@ -1,0 +1,14 @@
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+/*768px - 1023px*/
+
+@media screen and (max-width: 1023px) {
+    .header__wrapper {
+        padding-right: 40px;
+    }
+}
